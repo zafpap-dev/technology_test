@@ -1,41 +1,55 @@
-# Prerequisites
-*.d
+# ========================
+# Visual Studio / MFC C++
+# ========================
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Precompiled Headers
-*.gch
-*.pch
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bin/
+obj/
 
-# Linker files
-*.ilk
+# Visual Studio cache files
+.vs/
+*.VC.db
+*.VC.VC.opendb
 
-# Debugger Files
-*.pdb
+# Visual Studio temporary files
+*.log
+*.tlog
+*.lastbuildstate
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Compiled files
 *.exe
-*.out
+*.dll
+*.lib
 *.app
+*.pdb
+*.ilk
+*.idb
 
-# debug information files
-*.dwo
+# Generated files
+*.res
+*.iobj
+*.ipdb
+*.iobj
+
+# Others
+*.ncb
+*.aps
+*.nsh
+*.ncb
+*.sbr
+*.tlh
+*.tli
+
+# Mac / Linux (optional)
+*.DS_Store
